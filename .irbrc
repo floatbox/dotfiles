@@ -3,8 +3,7 @@ require 'irb/ext/save-history'
 require 'rubygems'
 require 'awesome_print'
 
-#History configuration
-#
+# History configuration
 IRB.conf[:SAVE_HISTORY] = 100000
 
 
